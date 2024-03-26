@@ -7,11 +7,13 @@ Web_Pjt_CBY
 
 
 # back-end
-- 기술스택
-  Spring
-  Mysql
-  Gradle
-  Jave version 11
+- 기술스택  
+  Spring  
+  Mysql  
+  Gradle  
+  Jave version 11  
+
+![제목 없는 다이어그램 drawio](https://github.com/JungWooHwang1/3-1_Web_Project/assets/153082512/9158bb62-f3e9-4881-9797-177bc5c214bd)
 
 
   
