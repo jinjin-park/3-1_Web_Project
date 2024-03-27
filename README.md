@@ -4,7 +4,7 @@ Web_Pjt_CBY
 
 
 # front-end
-
+https://github.com/JungWooHwang1/3-1_Web_Project/issues/2#issue-2209715407
 
 # back-end
 - 기술스택  
