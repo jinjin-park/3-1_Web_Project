@@ -4,7 +4,9 @@ Web_Pjt_CBY
 
 
 # front-end
+![스크린샷 2024-03-27 120112](https://github.com/JungWooHwang1/3-1_Web_Project/assets/131197860/b5404686-3402-40a9-bccb-30ae95eab86d)
 
+메인페이지 결정
 
 # back-end
 - 기술스택  
