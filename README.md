@@ -15,7 +15,7 @@
 ### 3주차 ( 4. 2. ~ 4. 9. )
 회원기능 구현 ( 회원가입, 로그인, 로그아웃, 회원수정 -> Spring, MyBatis, MySQL )  
 https://velog.io/@cyseok123/MyBatis ( MyBatis란? )  
-https://youtube.com/playlist?list=PLV9zd3otBRt7HQxBTdpJ_85UEvKJl2mJ0&si=X0Qr3li0Z6kOUzyn
+https://youtube.com/playlist?list=PLV9zd3otBRt7HQxBTdpJ_85UEvKJl2mJ0&si=X0Qr3li0Z6kOUzyn ( Spring으로 회원기능 구현 )
 
 ### 4주차 ( 4. 9. ~ 4. 16. )
 API 구현 ( RESTful API 개발방법으로 구현할 것. )  
