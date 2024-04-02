@@ -1,37 +1,34 @@
 CREATE TABLE `User` (
-  `UserID` String PRIMARY KEY,
-  `Name` String,
-  `Password` integer,
-  `RegisterationDate` timestamp
+  `UserID` VARCHAR(255) PRIMARY KEY,
+  `Name` VARCHAR(255),
+  `PasswordHash` VARCHAR(255),
+  `RegisterationDate` TIMESTAMP
 );
 
 CREATE TABLE `Question` (
-  `QuestionID` integer PRIMARY KEY,
-  `Content` String
+  `QuestionID` INTEGER PRIMARY KEY,
+  `Content` VARCHAR(255)
 );
 
 CREATE TABLE `Answer` (
-  `AnswerID` integer PRIMARY KEY,
-  `UserID` String,
-  `QuestionID` integer,
-  `Content` String,
-  `CreationDate` timestamp
+  `AnswerID` INTEGER PRIMARY KEY,
+  `UserID` VARCHAR(255),
+  `QuestionID` INTEGER,
+  `Content` VARCHAR(255),
+  `CreationDate` TIMESTAMP,
+  FOREIGN KEY (`UserID`) REFERENCES `User` (`UserID`),
+  FOREIGN KEY (`QuestionID`) REFERENCES `Question` (`QuestionID`)
 );
 
 CREATE TABLE `Image` (
-  `ImageID` integer PRIMARY KEY,
-  `ImagePath` String
+  `ImageID` INTEGER PRIMARY KEY,
+  `ImagePath` VARCHAR(255)
 );
 
 CREATE TABLE `Diary` (
-  `DiaryID` integer PRIMARY KEY,
-  `UserID` String,
-  `Content` String,
-  `CreationDate` timestamp
+  `DiaryID` INTEGER PRIMARY KEY,
+  `UserID` VARCHAR(255),
+  `Content` VARCHAR(255),
+  `CreationDate` TIMESTAMP,
+  FOREIGN KEY (`UserID`) REFERENCES `User` (`UserID`)
 );
-
-ALTER TABLE `Answer` ADD FOREIGN KEY (`UserID`) REFERENCES `User` (`UserID`);
-
-ALTER TABLE `Diary` ADD FOREIGN KEY (`UserID`) REFERENCES `User` (`UserID`);
-
-ALTER TABLE `Answer` ADD FOREIGN KEY (`QuestionID`) REFERENCES `Question` (`QuestionID`);
