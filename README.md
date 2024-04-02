@@ -32,10 +32,12 @@
   - 3
 ### BE
   - Jave version 11
-  - Spring
-  - Mysql
+  - Spring Framework
+  - MySQL
+  - MyBatis
   - Gradle
-  - AWS
+  - AWS EC2
+  - AWS RDS
 
 # 참고
 ### 프론트엔드 참고사항 올려드려요~
