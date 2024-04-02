@@ -1,7 +1,7 @@
 CREATE TABLE `User` (
   `UserID` VARCHAR(255) PRIMARY KEY,
   `Name` VARCHAR(255),
-  `PasswordHash` VARCHAR(255),
+  `Password` VARCHAR(255),
   `RegisterationDate` TIMESTAMP
 );
 
